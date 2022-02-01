@@ -40,7 +40,7 @@ sqlalchemy2 = [
     "fastapi-users-db-sqlalchemy >=2.0.0",
 ]
 mongodb = [
-    "fastapi-users-db-mongodb >=1.1.0",
+    "fastapi-users-db-mongodb-azure >=1.1.0",
 ]
 tortoise-orm = [
     "fastapi-users-db-tortoise >=1.1.0",
