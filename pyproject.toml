@@ -30,6 +30,7 @@ requires = [
     "pyjwt ==2.3.0",
     "python-multipart ==0.0.5",
     "makefun >=1.11.2,<1.14",
+    "fastapi-users-db-mongodb-azure >=1.1.0",
 ]
 
 [tool.flit.metadata.requires-extra]
@@ -38,9 +39,6 @@ sqlalchemy = [
 ]
 sqlalchemy2 = [
     "fastapi-users-db-sqlalchemy >=2.0.0",
-]
-mongodb = [
-    "fastapi-users-db-mongodb-azure >=1.1.0",
 ]
 tortoise-orm = [
     "fastapi-users-db-tortoise >=1.1.0",
