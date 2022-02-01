@@ -6,7 +6,7 @@ __all__ = [
 ]
 
 try:  # pragma: no cover
-    from fastapi_users_db_mongodb import MongoDBUserDatabase  # noqa: F401
+    from fastapi_users_db_mongodb_azure import MongoDBUserDatabase  # noqa: F401
 
     __all__.append("MongoDBUserDatabase")
 except ImportError:  # pragma: no cover
